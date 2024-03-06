@@ -46,6 +46,7 @@ h1{
 
 
 #main-box{
+   margin: 15px;
    border-radius: 5px;
    border: solid 1px rgb(165, 112, 42);
    display: flow-root; /* hogy minden kep benne maradjon a dobozba*/
@@ -74,7 +75,11 @@ h1{
     background-position: center;
     background-size:cover;
 
-  
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
     background-color:rgb(165, 112, 42);
     color: white;
     padding: 10px;
