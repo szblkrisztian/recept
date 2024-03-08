@@ -1,23 +1,35 @@
-html{
-    font-size: 16px;
-}
 
 body{
+    margin:0 auto;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
 
-    text-align: center;
-    background-image:url(./imgs/header_background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(183, 19, 233);
 }
 
-h1{
+.row{
+    border: solid 1px black;
+
+}
+
+
+/* Fejlec elemek*/
+.row header{
+    text-align: center;
+    background-image:url(./imgs/header_background.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    margin: 0;
+    padding: 3px;
     color: white;
     font-size: 4rem;
     letter-spacing:6px;
@@ -35,9 +47,9 @@ h2{
 }
 
 .navbar ul{
+    margin: 0;
     list-style:none;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     padding: 15px;
 }
@@ -47,14 +59,13 @@ h2{
     color: white;
     text-decoration: none;
     padding: 5px;
-
 }
 
 .nav-button:hover{
     color:rgb(224, 207, 185);
 }
 
-
+/* Main elemek*/
 #main-box{
    margin: 15px;
    border-radius: 5px;
@@ -69,10 +80,7 @@ h2{
 }
 
 
-.container ul{
-    font-size: 1.5rem;
-    text-align: center;
-}
+
 
 #footer-box{
     background-image: url(./imgs/footer_background.jpg);
