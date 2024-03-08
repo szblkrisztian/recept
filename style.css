@@ -121,7 +121,9 @@ span{
     max-width: 55%;
 }
 
-
+.col-color{
+    background-color: beige;
+}
 
 footer{
     background-color:orange;
@@ -159,12 +161,14 @@ footer span{
 
     .col h2{
         text-align: center;
+        padding: 1rem;
     }
 
     .col p{
-        padding: 5px;
+        padding: 1.5rem;
         text-align: justify;
     }
+
 
     .navbar{
         background-color: rgba(255, 255, 255, 0);
@@ -186,6 +190,37 @@ footer span{
 }
 
 @media (min-width:675px){
+
+    .column{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .col{
+
+        width:45%;
+    }
+
+    .col h2{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .col p{
+        padding: 1.5rem;
+        text-align: justify;
+    }
+
+    .col img{
+        min-width: 60%;
+        margin-left: 27%;
+        
+    }
+    
+
+
+
     .row header{
         text-align: left;
         padding: 1em 1em 0 1em;
