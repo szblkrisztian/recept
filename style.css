@@ -9,19 +9,16 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    border: solid 1px rgb(183, 19, 233);
 }
 
 .row{
     margin:5 auto;
     padding: 1;
-    border: solid 1px black;
 }
 
 .col{
     margin:5 auto;
     padding: 1;
-    border: solid 1px black;
 }
 
 
@@ -45,6 +42,11 @@ header h1{
 h2{
     color: rgb(11, 70, 11);
     font-size: 1.5rem;
+}
+
+span{
+    font-size: 2rem;
+    color: red;
 }
 
 /*Navigacios elemek*/
@@ -83,13 +85,20 @@ h2{
 .col-1{
     text-align: center;
     width: 55%;
-    padding: 5px;
+    padding: 15px;
 }
 
 .col-2{
     text-align: center;
     width: 40%;
-    padding: 5px;
+    padding: 15px;
+}
+
+
+
+.col-3{
+    margin: 15px;
+    width: 75%;
 }
 
 img{
@@ -98,6 +107,8 @@ img{
     max-width: 30%;
     float: left;
 }
+
+
 
 
 
