@@ -25,7 +25,7 @@ body{
 /* Fejlec elemek*/
 .row header{
     text-align: center;
-    background-image:url(./imgs/header_background.jpg);
+    background-image:url(./imgs/new.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ header h1{
 }
 
 h2{
-    color: rgb(11, 70, 11);
+    color: rgb(56, 38, 13);
     font-size: 1.5rem;
 }
 
@@ -60,13 +60,13 @@ h2{
 
 span{
     font-size: 2rem;
-    color: red;
+    color: orange;
 }
 
 /*Navigacios elemek*/
 
 .navbar{
-    background-color: rgba(165, 112, 42, 0.76);
+    background-color: rgba(46, 31, 12, 0.76);
 }
 
 .navbar ul{
@@ -79,7 +79,6 @@ span{
 }
 
 .nav-button{
-    background-color: rgba(165, 112, 42, 0.233);
     color: rgb(241, 233, 223);;
     text-decoration: none;
     padding: 0px 5px 0px 5px;
@@ -111,8 +110,6 @@ span{
     padding: 15px;
 }
 
-
-
 .col-3{
     margin: 15px;
     width: 75%;
@@ -127,20 +124,46 @@ img{
 
 
 #footer-box{
-    background-image: url(./imgs/footer_background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-color:rgb(165, 112, 42);
+    background-color:rgb(56, 38, 13);
     color: rgb(255, 255, 255);
     padding: 10px;
     display: flow-root;        
-}
+}rgb(39, 27, 10)
 
 .footer-textbox{
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.377);
+}
+
+@media (min-width:675px) {
+    .row header{
+        text-align: left;
+        padding: 1em 1em 0 1em;
+    }
+    .subtitle{
+        text-align: left;
+        padding: 0em 1em 0em 1em;
+    }
+
+    .navbar{
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .navbar ul{
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .nav-button{
+        background-color: rgba(255, 255, 255, 0);
+        color: #ffff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0px 5px 0px 5px;
+    }
+    
 }
 
 @media (max-width:600px) {
@@ -158,6 +181,8 @@ img{
         align-items: center;
     }
 }
+
+
 
 
     
