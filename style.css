@@ -43,7 +43,7 @@ header h1{
 }
 
 .subtitle{
-    color: white;
+    color: rgb(255, 166, 0);
     font-size:1.5rem;
     font-weight: 700;
     padding-bottom:1em;
@@ -55,8 +55,6 @@ h2{
     color: rgb(56, 38, 13);
     font-size: 1.5rem;
 }
-
-
 
 span{
     font-size: 2rem;
@@ -79,16 +77,15 @@ span{
 }
 
 .nav-button{
-    color: rgb(241, 233, 223);;
+    color: orange;
     text-decoration: none;
     padding: 0px 5px 0px 5px;
 }
 
 .nav-button:hover{
-    color:white;
-    border-bottom: 1px solid white;
+    color:orange;
+    border-bottom: 1px solid orange;
     border-bottom-width: 2px;
-
 }
 
 /* Main elemek*/
@@ -97,6 +94,7 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: left;
+
 }
 
 .col-1{
@@ -115,28 +113,76 @@ span{
     width: 75%;
 }
 
-img{
-    margin: 10px;
-    max-width: 25%;
-    float: left;
+.col-1 img{
+    max-width: 55%;
+}
+
+.col-2 img{
+    max-width: 55%;
 }
 
 
 
-#footer-box{
-    background-color:rgb(56, 38, 13);
-    color: rgb(255, 255, 255);
+footer{
+    background-color:orange;
+    color: rgb(56, 38, 13);
     padding: 10px;
     display: flow-root;        
 }
 
-.footer-textbox{
-    padding: 5px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.377);
+footer span{
+    color: white;
 }
 
-@media (min-width:675px) {
+
+
+@media (max-width:675px) {
+
+    body{
+        font-size: 1.5rem;
+    }
+    .column{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .col{
+        min-width: 100%;
+    }
+    
+    .col img{
+        width: 40%;
+        margin-left: 27%;
+        
+    }
+
+    .col h2{
+        text-align: center;
+    }
+
+    .col p{
+        padding: 5px;
+        text-align: justify;
+    }
+
+    .navbar{
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .nav-button{
+        background-color: rgba(255, 255, 255, 0);
+        color: #ffff;
+        font-size: 1.5rem;
+        font-weight: 350;
+    }
+
+
+    
+
+}
+
+@media (min-width:675px){
     .row header{
         text-align: left;
         padding: 1em 1em 0 1em;
@@ -149,12 +195,12 @@ img{
     .navbar{
         background-color: rgba(255, 255, 255, 0);
     }
-
+    
     .navbar ul{
         flex-direction: row;
         justify-content: end;
     }
-
+    
     .nav-button{
         background-color: rgba(255, 255, 255, 0);
         color: #ffff;
@@ -163,24 +209,10 @@ img{
         text-decoration: none;
         padding: 0px 5px 0px 5px;
     }
-    
+     
+
 }
 
-@media (max-width:600px) {
-    body{
-        font-size: 1.5rem;
-    }
-
-    h2{
-       font-size: 1.5rem;
-    }
-
-    .column{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
 
 
 

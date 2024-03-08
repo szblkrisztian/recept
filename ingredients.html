@@ -7,55 +7,74 @@
     <title>Receptek</title>
 </head>
 <body>
-    <header>
-        <h1>Receptek</h1>
-    </header>
-    <nav class="navbar">
-        <ul>
-            <li class="nav-item">
-                <a href="./index.html" class="nav-button">Kezdolap</a>
-             </li>
-            <li class="nav-item">
-               <a href="./recipes.html" class="nav-button">Receptek</a>
-            </li>
-            <li class="nav-item">
-                <a href="./ingredients.html" class="nav-button">Hozzavalok</a>
-            </li>
-            <li class="nav-item">
-                <a href="./about.html" class="nav-button">Rolunk</a>
-            </li>
-            <li class="nav-item">
-                <a href="./contact.html" class="nav-button">Elerhetosegek</a>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <div id="main-box">
-            <img id="main-img" src="./imgs/ingredients.jpg" alt="receptkonyv">
-            <h2 id="main-header">Hozzavalok</h2>
-            <p id="main-text">
-                Listaba szedtem az elerheto hozzavalokat a lenyeg majd az lesz hogy letretudj hozni,szerkeszteni es torolni tudj majd a sajat fiokodon belul.
-            </p>
+    <div class="container">
+        <div class="row">
+            <header>
+                <h1>Receptek</h1>
+                <p class="subtitle">Konnyen, gyorsan, egyszeruen!</p>
+                <nav class="navbar">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-button">Kezdolap</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="./recipes.html" class="nav-button">Receptek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./ingredients.html" class="nav-button">Hozzavalok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-button">Rolunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contact.html" class="nav-button">Elerhetosegek</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-        <div id="main-box">
-            <h2>Funkaciok amik elerhetoek lesznek</h2>
-            <ul>
-                <li>Hozzavalok keszites</li>
-                <li>Hozzavalok modositasa</li>
-                <li>Hozzavalok torlese</li>
-            </ul>
+        <div class="row">
+            <div class="column">
+                <div class="col col-1">
+                    <img src="./imgs/recipe_book.jpg" alt="recipe-book">
+                    <h2>
+                        <span>Listaba</span> szedtem az elerheto hozzavalokat a lenyeg majd az lesz hogy letretudj hozni,szerkeszteni es torolni tudj majd a sajat fiokodon belul.
+                    </h2>
+                </div>
+                <div class="col col-2">
+                    <h2>Funkaciok amik elerhetoek lesznek</h2>
+                    <ul>
+                        <li>Hozzavalok keszites</li>
+                        <li>Hozzavalok modositasa</li>
+                        <li>Hozzavalok torlese</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="col-3">
+                    <h2><span>Lorem</span>ipsum dolor sit amet consectetur</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Hic quam perspiciatis  doloremque sit aut, ab ratione modi 
+                        obcaecati repudiandae autem voluptate dolore natus dignissimos 
+                        labore voluptatem iusto quia dolor saepe?
+                    </p>
+                </div>
+            </div>
         </div>
-
-    </main>
-    <footer>
-        <div id="footer-box">
-            <div class="footer-textbox">
-                <p>
-                    Ez az oldal azert jott letre hogy en gyakorolni tudjak es elsajatitsak minel tobbet a weboldalak keszitesenek alapjairol.
-                    Minden kep amit felhasznaltam nem a sajatom.
-                </p>
-            </div >
+        <div class="row">
+            <footer>
+                <div id="footer-box">
+                    <div class="footer-textbox">
+                        <p>
+                            Ez az oldal azert jott letre hogy en gyakorolni tudjak es elsajatitsak minel tobbet a weboldalak keszitesenek alapjairol.
+                            Minden kep amit felhasznaltam nem a sajatom.
+                        </p>
+                    </div >
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
 </body>
 </html>
+
