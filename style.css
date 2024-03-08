@@ -80,16 +80,16 @@ span{
 .column{
     display: flex;
     justify-content: space-around;
+    align-items: left;
 }
 
 .col-1{
-    text-align: center;
     width: 55%;
     padding: 15px;
 }
 
 .col-2{
-    text-align: center;
+    
     width: 40%;
     padding: 15px;
 }
@@ -103,15 +103,9 @@ span{
 
 img{
     margin: 10px;
-    min-width: 30%;
-    max-width: 30%;
+    max-width: 50%;
     float: left;
 }
-
-
-
-
-
 
 
 
@@ -130,6 +124,14 @@ img{
     padding: 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.377);
+}
+
+@media (max-width:600px) {
+    .column{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 
